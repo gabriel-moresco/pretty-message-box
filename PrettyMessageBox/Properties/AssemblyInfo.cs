@@ -6,9 +6,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PrettyMessageBox")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A pretty Message Box to use in your WPF projects")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Gabriel Moresco")]
 [assembly: AssemblyProduct("PrettyMessageBox")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
