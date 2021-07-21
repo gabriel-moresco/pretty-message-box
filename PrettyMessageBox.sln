@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyMessageBox", "PrettyM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyMessageBox.Test.Local", "PrettyMessageBox.Test.Local\PrettyMessageBox.Test.Local.csproj", "{34EC8304-68F8-4040-ACF5-EA3495938DDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyMessageBox.Test.Nuget", "PrettyMessageBox.Test.Nuget\PrettyMessageBox.Test.Nuget.csproj", "{AB292C43-2F80-4559-9F1E-E674AAB5DCB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{34EC8304-68F8-4040-ACF5-EA3495938DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34EC8304-68F8-4040-ACF5-EA3495938DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34EC8304-68F8-4040-ACF5-EA3495938DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB292C43-2F80-4559-9F1E-E674AAB5DCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB292C43-2F80-4559-9F1E-E674AAB5DCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB292C43-2F80-4559-9F1E-E674AAB5DCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB292C43-2F80-4559-9F1E-E674AAB5DCB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
