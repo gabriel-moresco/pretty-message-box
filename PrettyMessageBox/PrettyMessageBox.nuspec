@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
+
   <metadata>
     <id>$id$</id>
     <title>$title$</title>
 	<copyright>$copyright$</copyright>
 	
-	<version>1.0.1</version>
+	<version>1.0.3</version>
 	<description>A pretty Message Box to use in your WPF projects</description>
     <authors>Gabriel Moresco</authors>
 	
@@ -13,8 +14,14 @@
     <license type="expression">MIT</license>
 	
     <projectUrl>https://github.com/gabriel-moresco/pretty-message-box</projectUrl>
-	<repository url="https://github.com/gabriel-moresco/pretty-message-box"/>
+	<repository url="https://github.com/gabriel-moresco/pretty-message-box.git"/>
+	<readme>docs/README.md</readme>
 	
 	<tags>messagebox wpf xaml ui controls</tags>
   </metadata>
+  
+  <files>
+	<file src="..\README.md" target="docs\"/>
+  </files>
+  
 </package>
