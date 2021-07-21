@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
-
-  <metadata>
-    <id>PrettyMessageBox</id>
-    <title>PrettyMessageBox</title>
-	<description>A pretty Message Box to use in your WPF projects</description>
-	<version>1.0.4</version>
-	<authors>Gabriel Moresco</authors>
-	<copyright>Copyright © 2021</copyright>
 	
-    <projectUrl>https://github.com/gabriel-moresco/pretty-message-box</projectUrl>
-	<repository type="git" url="https://github.com/gabriel-moresco/pretty-message-box"/>
+	<metadata>
+		<id>PrettyMessageBox</id>
+		<title>PrettyMessageBox</title>
+		<description>A pretty Message Box to use in your WPF projects</description>
+		<version>1.0.5</version>
+		<authors>Gabriel Moresco</authors>
+		<copyright>Copyright © 2021 Gabriel Moresco</copyright>
+		
+		<projectUrl>https://github.com/gabriel-moresco/pretty-message-box</projectUrl>
+		<repository type="git" url="https://github.com/gabriel-moresco/pretty-message-box"/>
+		
+		<icon>docs/icon.png</icon>
+		<readme>docs/README.md</readme>
+		<license type="file">docs/LICENSE.txt</license>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		
+		<tags>messagebox wpf xaml ui controls</tags>
+		
+		<dependencies>
+			<group targetFramework="net35"/>
+		</dependencies>
 	
-	<readme>docs/README.md</readme>
-	<license type="file">docs/LICENSE.txt</license>
-	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	</metadata>
 	
-	<tags>messagebox wpf xaml ui controls</tags>
-  </metadata>
-  
-  <files>
-	<file src="..\README.md" target="docs\"/>
-	<file src="..\LICENSE.txt" target="docs\"/>
-  </files>
-  
+	<files>
+		<file src="..\README.md" target="docs\"/>
+		<file src="..\LICENSE.txt" target="docs\"/>
+		<file src="..\docs\icon.png" target="docs\"/>
+	</files>
+	
 </package>
