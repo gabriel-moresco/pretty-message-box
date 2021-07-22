@@ -5,7 +5,7 @@
 		<id>PrettyMessageBox</id>
 		<title>PrettyMessageBox</title>
 		<description>A pretty Message Box to use in your WPF projects</description>
-		<version>1.0.8</version>
+		<version>1.0.9</version>
 		<authors>Gabriel Moresco</authors>
 		<copyright>Copyright © 2021 Gabriel Moresco</copyright>
 		
@@ -18,11 +18,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		
 		<tags>messagebox wpf xaml ui controls</tags>
-		
-		<dependencies>
-			<group targetFramework="net35"/>
-		</dependencies>
-	
+
 	</metadata>
 	
 	<files>
