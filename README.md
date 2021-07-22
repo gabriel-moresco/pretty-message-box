@@ -1,6 +1,4 @@
-<div align="center">
-  <h1>Pretty Message Box</h1>
-</div>
+# Pretty Message Box
 
 [![nuget badge](https://img.shields.io/nuget/v/PrettyMessageBox?logo=NuGet&style=for-the-badge)](https://www.nuget.org/packages/PrettyMessageBox)
 [![nuget downloads badge](https://img.shields.io/nuget/dt/PrettyMessageBox?logo=NuGet&style=for-the-badge)](https://www.nuget.org/packages/PrettyMessageBox)
@@ -13,7 +11,7 @@ A pretty `MessageBox` to use in your WPF projects
 ```cs
 MessageBox.Show("Title", "Test Content", ImageOptions.Checked);
 ```
-![](./docs/sample_checked.png)
+![](https://raw.githubusercontent.com/gabriel-moresco/pretty-message-box/master/docs/sample_checked.png)
 
 ```cs
 try
@@ -25,14 +23,14 @@ catch (Exception ex)
   MessageBox.Show("Title", "An error occurred:", ex);
 }
 ```
-![](./docs/sample_error.png)
+![](https://raw.githubusercontent.com/gabriel-moresco/pretty-message-box/master/docs/sample_error.png)
 
 ```cs
 MessageBox.Show("Title", "Test Content", ImageOptions.Info, ButtonOptions.OkCancel);
 ```
-![](./docs/sample_info.png)
+![](https://raw.githubusercontent.com/gabriel-moresco/pretty-message-box/master/docs/sample_info.png)
 
 ```cs
 MessageBox.Show("Title", "Test Content", ImageOptions.Question, ButtonOptions.YesNoAuxiliary, "Test Aux");
 ```
-![](./docs/sample_question.png)
+![](https://raw.githubusercontent.com/gabriel-moresco/pretty-message-box/master/docs/sample_question.png)
