@@ -1,7 +1,7 @@
 ﻿using PrettyMessageBox.Views;
 using System;
 
-namespace PrettyMessageBox
+namespace Pretty
 {
     /// <summary>
     /// Class to show the PrettyMessageBox
@@ -63,8 +63,8 @@ namespace PrettyMessageBox
         /// <param name="message"><see cref="MessageBox"/> Content</param>
         /// <param name="buttonOptions">Button configuration to show under the content</param>
         /// <param name="auxiliaryButtonContent">Text to show in the auxiliary button, if chosen in the <paramref name="buttonOptions"/></param>
-        /// <returns>Returns <see cref="MessageBoxResult.Positive"/> if user click in "Ok" or "Yes", <see cref="MessageBoxResult.Negative"/> if user click in "Cancel" or "No", and <see cref="MessageBoxResult.Auxiliary"/> if user click in the Auxiliary Button</returns>
-        public static MessageBoxResult Show(string title, string message, ButtonOptions buttonOptions, string auxiliaryButtonContent = "")
+        /// <returns>Returns <see cref="MessageBoxResults.Positive"/> if user click in "Ok" or "Yes", <see cref="MessageBoxResults.Negative"/> if user click in "Cancel" or "No", and <see cref="MessageBoxResults.Auxiliary"/> if user click in the Auxiliary Button</returns>
+        public static MessageBoxResults Show(string title, string message, ButtonOptions buttonOptions, string auxiliaryButtonContent = "")
         {
             MessageBoxView messageBox = new MessageBoxView(title, message, ImageOptions.None, buttonOptions, auxiliaryButtonContent, null);
             messageBox.ShowDialog();
@@ -80,8 +80,8 @@ namespace PrettyMessageBox
         /// <param name="image">Image to show next to content</param>
         /// <param name="buttonOptions">Button configuration to show under the content</param>
         /// <param name="auxiliaryButtonContent">Text to show in the auxiliary button, if chosen in the <paramref name="buttonOptions"/></param>
-        /// <returns>Returns <see cref="MessageBoxResult.Positive"/> if user click in "Ok" or "Yes", <see cref="MessageBoxResult.Negative"/> if user click in "Cancel" or "No", and <see cref="MessageBoxResult.Auxiliary"/> if user click in the Auxiliary Button</returns>
-        public static MessageBoxResult Show(string title, string message, ImageOptions image, ButtonOptions buttonOptions, string auxiliaryButtonContent = "")
+        /// <returns>Returns <see cref="MessageBoxResults.Positive"/> if user click in "Ok" or "Yes", <see cref="MessageBoxResults.Negative"/> if user click in "Cancel" or "No", and <see cref="MessageBoxResults.Auxiliary"/> if user click in the Auxiliary Button</returns>
+        public static MessageBoxResults Show(string title, string message, ImageOptions image, ButtonOptions buttonOptions, string auxiliaryButtonContent = "")
         {
             MessageBoxView messageBox = new MessageBoxView(title, message, image, buttonOptions, auxiliaryButtonContent, null);
             messageBox.ShowDialog();

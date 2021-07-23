@@ -52,7 +52,7 @@
   <ItemGroup>
     <Compile Include="Enums\ButtonOptions.cs" />
     <Compile Include="Enums\ImageOptions.cs" />
-    <Compile Include="Enums\MessageBoxResult.cs" />
+    <Compile Include="Enums\MessageBoxResults.cs" />
     <Compile Include="MessageBox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

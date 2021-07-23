@@ -1,4 +1,4 @@
-﻿namespace PrettyMessageBox
+﻿namespace Pretty
 {
     public enum ImageOptions
     {

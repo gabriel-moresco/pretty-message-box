@@ -1,4 +1,4 @@
-﻿using PrettyMessageBox;
+﻿using Pretty;
 using System;
 
 namespace Test
@@ -27,10 +27,10 @@ namespace Test
             }
 
             //README SAMPLE_INFO.PNG TEST
-            MessageBox.Show("Title", "Test Content", ImageOptions.Info, ButtonOptions.OkCancel);
+            MessageBoxResults result1 = MessageBox.Show("Title", "Test Content", ImageOptions.Info, ButtonOptions.OkCancel);
 
             //README SAMPLE_QUESTION.PNG TEST
-            MessageBox.Show("Title", "Test Content", ImageOptions.Question, ButtonOptions.YesNoAuxiliary, "Test Aux");
+            MessageBoxResults result2 = MessageBox.Show("Title", "Test Content", ImageOptions.Question, ButtonOptions.YesNoAuxiliary, "Test Aux");
 
             //OTHER TESTS
             MessageBox.Show("Title", "Test Content");

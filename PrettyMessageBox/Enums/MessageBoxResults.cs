@@ -1,6 +1,6 @@
-﻿namespace PrettyMessageBox
+﻿namespace Pretty
 {
-    public enum MessageBoxResult
+    public enum MessageBoxResults
     {
         Positive,
         Negative,

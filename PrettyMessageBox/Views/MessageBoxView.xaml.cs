@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pretty;
+using System;
 using System.Media;
 using System.Windows;
 using System.Windows.Input;
@@ -11,7 +12,7 @@ namespace PrettyMessageBox.Views
         ImageOptions _imageType;
         Exception _exception;
 
-        internal MessageBoxResult Result { get; set; }
+        internal MessageBoxResults Result { get; set; }
 
         internal MessageBoxView(string title, string message, ImageOptions image, ButtonOptions buttonOptions, string auxiliaryButtonText, Exception exception)
         {
@@ -134,19 +135,19 @@ namespace PrettyMessageBox.Views
 
         void OnPositiveButtonClick(object sender, RoutedEventArgs e)
         {
-            Result = MessageBoxResult.Positive;
+            Result = MessageBoxResults.Positive;
             Close();
         }
 
         void OnNegativeButtonClick(object sender, RoutedEventArgs e)
         {
-            Result = MessageBoxResult.Negative;
+            Result = MessageBoxResults.Negative;
             Close();
         }
 
         void OnAuxiliaryButtonClick(object sender, RoutedEventArgs e)
         {
-            Result = MessageBoxResult.Auxiliary;
+            Result = MessageBoxResults.Auxiliary;
             Close();
         }
 
