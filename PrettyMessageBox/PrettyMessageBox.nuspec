@@ -5,7 +5,7 @@
 		<id>PrettyMessageBox</id>
 		<title>PrettyMessageBox</title>
 		<description>A pretty Message Box to use in your WPF projects</description>
-		<version>1.0.9</version>
+		<version>1.1.0</version>
 		<authors>Gabriel Moresco</authors>
 		<copyright>Copyright © 2021 Gabriel Moresco</copyright>
 		
@@ -17,7 +17,7 @@
 		<license type="file">docs/LICENSE.txt</license>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		
-		<tags>messagebox wpf xaml ui controls</tags>
+		<tags>messagebox wpf xaml ui controls alert alertbox</tags>
 
 	</metadata>
 	
