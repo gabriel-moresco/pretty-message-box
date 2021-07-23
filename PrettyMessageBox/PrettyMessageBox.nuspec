@@ -4,8 +4,8 @@
 	<metadata>
 		<id>PrettyMessageBox</id>
 		<title>PrettyMessageBox</title>
-		<description>A pretty Message Box to use in your WPF projects</description>
-		<version>1.1.0</version>
+		<description>A PrettyMessageBox to use in your WPF projects</description>
+		<version>1.1.1</version>
 		<authors>Gabriel Moresco</authors>
 		<copyright>Copyright © 2021 Gabriel Moresco</copyright>
 		
