@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Input;
 
-namespace PrettyMessageBox.Views
+namespace Pretty.Views
 {
     internal partial class ExceptionDetailsView : Window
     {

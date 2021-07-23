@@ -1,11 +1,10 @@
-﻿using Pretty;
-using System;
+﻿using System;
 using System.Media;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 
-namespace PrettyMessageBox.Views
+namespace Pretty.Views
 {
     internal partial class MessageBoxView : Window
     {
